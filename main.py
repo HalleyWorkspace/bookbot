@@ -3,7 +3,7 @@ def get_book_text(file):
         return f.read()
 
 def num_words(book_text):
-    text_list=book_text.split(" ")
+    text_list=book_text.split()
     return len(text_list)
 
 def main():
